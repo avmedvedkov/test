@@ -1,9 +1,36 @@
 ```
+# Dependencies
+venv/
+.venv/
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
 .Python
 env/
 venv/
@@ -42,26 +69,13 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# Environment
-.env
-.env.local
-.env.dev
-.env.prod
-.env.*
+# Coverage
+.coverage
+coverage/
+htmlcov/
 
-# Docker
-.dockerenv
-Dockerfile
-docker-compose.yml
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Testing
+.pytest_cache/
+.mypy_cache/
 ```
