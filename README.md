@@ -54,24 +54,11 @@ docker compose down
 
 ```bash
 docker-compose logs -f
-# или
-docker compose logs -f
 ```
 
 ---
 
-## Вариант 2: Запуск через Docker Compose вручную
-
-```bash
-cd /workspace
-docker-compose up -d --build
-# или
-docker compose up -d --build
-```
-
----
-
-## Вариант 3: Запуск без Docker (Локальная разработка)
+## Вариант 2: Запуск без Docker (Локальная разработка)
 
 ### Требования
 
